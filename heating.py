@@ -10,11 +10,11 @@ from time import sleep
 from datetime import datetime
 from datetime import timedelta
 
-# GPIO 17 living_left
-# GPIO 22 kitchen
-# GPIO 23 living_right
-# GPIO 24 holway
-# GPIO 27 boiler
+# GPIO 17 living_left	// Floor heating relay
+# GPIO 22 kitchen	// Floor heating relay
+# GPIO 23 living_right	// Floor heating relay
+# GPIO 24 holway	// Floor heating relay
+# GPIO 27 boiler	// Boiler heating relay
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
